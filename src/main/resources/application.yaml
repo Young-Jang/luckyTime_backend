@@ -1,0 +1,31 @@
+spring:
+  config:
+    activate:
+      on-profile: local, default
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/board
+    username: jang
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        # show_sql: true
+        format_sql: true
+    database: h2
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled=true:logging.level:
+  org.hibernate.SQL: debug
+# org.hibernate.type: trace
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+
+
