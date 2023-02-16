@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Service;
-import toyproject.almigty.lotto.domain.repository.LottoRepository;
+import lotto.domain.repository.LottoRepository;
 
 import java.text.DecimalFormat;
 import java.util.*;

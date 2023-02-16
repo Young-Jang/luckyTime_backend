@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import toyproject.almigty.config.ControllerDocumentation;
-import toyproject.almigty.lotto.application.LottoService;
-import toyproject.almigty.lotto.rest.DTO.GetLuckyNumRspDTO;
+import config.ControllerDocumentation;
+import lotto.application.LottoService;
+import lotto.rest.DTO.GetLuckyNumRspDTO;
 
 @RestController
 @RequiredArgsConstructor
